@@ -1,0 +1,21 @@
+{
+  "name": "@monorepo/my-library",
+  "version": "1.0.0",
+  "main": "./dist/packages/my-library/index",
+  "scripts": {
+    "prebuild": "rimraf ./dist/packages/my-library",
+    "build": "tsc -p ./tsconfig.lib.json"
+  },
+  "devDependencies": {
+    "@monorepo/tsconfig": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
+  

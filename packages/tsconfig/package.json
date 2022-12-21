@@ -1,0 +1,9 @@
+{
+    "name": "@monorepo/tsconfig",
+    "version": "1.0.0",
+    "private": false,
+    "files": [
+        "base.json",
+        "nest.json"
+    ]
+}

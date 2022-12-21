@@ -1,0 +1,41 @@
+{
+  "name": "monorepo-turbo-nest-angular-boilerplate",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "turbo": "latest"
+  },
+  "engines": {
+    "pnpm": ">=7.0.0",
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.15.0",
+  "overrides": {
+    "autoprefixer": "10.4.5",
+    "typeorm": "0.3.10",
+    "rxjs": "7.5.7"
+  },
+  "pnpm": {
+    "overrides": {
+      "autoprefixer": "10.4.5",
+      "typeorm": "0.3.10",
+      "rxjs": "7.5.7"
+    }
+  }
+}

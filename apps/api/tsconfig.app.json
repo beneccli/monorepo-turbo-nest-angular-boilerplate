@@ -1,0 +1,14 @@
+{
+  "extends": "../../packages/tsconfig/nest.json",
+  "compilerOptions": {
+    "declaration": false,
+    "outDir": "./dist",
+    "paths": {
+      "@monorepo/my-library": [ "../my-library/src" ],
+      "@monorepo/my-library/*": [ "../my-library/src/*" ],
+      "@src/*": ["../../apps/api/src/*"]
+    }
+  },
+  "include": ["src/**/*", "./*.config.ts", "*.config.js"],
+  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
+}
