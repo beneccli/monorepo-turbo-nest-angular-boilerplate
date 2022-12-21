@@ -7,7 +7,7 @@
     "build": "tsc -p ./tsconfig.build.json"
   },
   "devDependencies": {
-    "@monorepo/tsconfig": "workspace:*",
+    "@monorepo/tsconfig": "*",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
     "eslint": "^8.22.0",

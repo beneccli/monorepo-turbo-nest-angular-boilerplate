@@ -42,8 +42,8 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@monorepo/tsconfig": "workspace:*",
-    "@monorepo/models": "workspace:*",
+    "@monorepo/tsconfig": "*",
+    "@monorepo/models": "*",
     "@angular-devkit/build-angular": "^14.2.3",
     "@angular/cli": "^14.2.3",
     "@angular/compiler-cli": "^14.2.2",
